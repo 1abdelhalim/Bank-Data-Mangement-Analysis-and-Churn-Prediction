@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(to right, #2E8BFF, #5C72FF);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+h1 {
+    color: #ffffff;
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2.5rem; /* Larger font size for the heading */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.4); /* Subtle shadow for depth */
+}
+
+.card {
+    background-color: #ffffff; /* White background for card */
+    border-radius: 15px; /* More rounded corners */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Deeper shadow for a floating effect */
+    padding: 30px; /* Increased padding for spacing */
+}
+
+label {
+    font-weight: bold;
+    color: #007bff; /* A nice blue for labels */
+    margin-bottom: 5px; /* Spacing below labels */
+}
+
+.form-control {
+    margin-bottom: 20px; /* Increased margin for better spacing */
+    border-radius: 10px; /* Rounded edges */
+    border: 1px solid #007bff; /* Blue border */
+    transition: border-color 0.3s ease; /* Smooth transition for border color */
+}
+
+.form-control:focus {
+    border-color: #0056b3; /* Darker blue on focus */
+    box-shadow: 0 0 5px rgba(0, 86, 179, 0.5); /* Shadow effect on focus */
+}
+
+.btn-primary {
+    background-color: #007bff; /* Button background */
+    border: none;
+    border-radius: 10px; /* Rounded button */
+    padding: 10px 20px; /* Padding for button */
+    font-size: 1rem; /* Font size for button */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.btn-primary:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.result {
+    margin-top: 20px;
+    font-size: 1.5em; /* Slightly larger text for results */
+    color: #28a745; /* Green color for success messages */
+    text-align: center;
+    border: 1px solid #28a745; /* Border around the result */
+    border-radius: 10px; /* Rounded corners */
+    padding: 15px; /* Padding around the result */
+    background-color: #e8f5e9; /* Light green background for results */
+}
